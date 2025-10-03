@@ -11,7 +11,7 @@ venv/
 env/
 *.egg-info/
 .eggs/
-*.travel/
+.travel/        # 👈 Added: your local venv folder
 Lib/
 Scripts/
 pyvenv.cfg
@@ -54,6 +54,10 @@ pyvenv.cfg
 *.pb
 *.tflite
 *.weights
+*.gguf       # 👈 Added: for model weights like qwen2-1_5b-instruct-q4_0.gguf
+
+# ===== Binary executables =====
+*.exe        # 👈 Added: to avoid accidentally committing large installers
 
 # ===== IDE/editor files =====
 .vscode/
