@@ -1,0 +1,65 @@
+# ===== Python build and cache =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# ===== Virtual environments =====
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+*.travel/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# ===== Jupyter and notebooks =====
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert/
+
+# ===== Data & outputs =====
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.db
+*.sqlite
+*.h5
+*.parquet
+*.pkl
+*.joblib
+*.npz
+*.npy
+*.sav
+*.dat
+*.log
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# ===== Large ML/AI artifacts =====
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.pb
+*.tflite
+*.weights
+
+# ===== IDE/editor files =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== Misc =====
+BIG_FILES.txt
